@@ -1,0 +1,58 @@
+@import 'variables.scss';
+
+footer{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    gap: calc(100vw * 0.02);
+}
+.footerSocialIconsContainer{
+    margin-top: 20px;
+    display: flex;
+    gap: calc(100vw * 0.007);
+}
+.footerSocialIconsWrapper{
+    width: 55px;
+    height: 55px;
+    border: 1px solid #FFCA42;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerSocialIconsContainer img{
+    width: 15px;
+    aspect-ratio: 1;
+}
+
+.footerLinkWrapper{
+    display: flex;
+    position: relative;
+}
+
+footer h3, h4{
+    color: $white;
+    font-family: $titleFont;
+    font-size: 24px;
+}
+footer h4{
+    font-size: 18px;
+}
+
+footer a{
+    color: $footerLinks;
+    font-family: $textFont;
+    font-size: 18px;
+}
+.Explore a, .Utility a{
+    position: absolute;
+    left: 45px;
+    top: 5px;
+    margin-bottom: 0;
+}
+.footerContactInfo{
+    margin-top: 28px;
+    display: flex;
+    justify-content: space-between;
+    gap: calc(100vw * 0.02);
+}

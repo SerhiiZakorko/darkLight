@@ -1,0 +1,60 @@
+@import 'variables.scss';
+
+header{
+ display: flex;
+ justify-content: space-between;
+ padding: 20px 0;
+}
+
+.social-icons{
+    display: flex;
+}
+
+.main-logo{
+    margin: auto calc(100vw * 0.025) auto 0;
+    width: calc(100vw * 0.085);
+    height: 35px;
+}
+
+.social-icon-wrapper:not(:last-child){
+    margin-right: calc(100vw * 0.007);
+}
+
+.social-icon-wrapper{
+    width: 45px;
+    height: 45px;
+    background-color: #FFFFFF;
+    border: 2px solid #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav{
+    margin: auto;
+}
+
+nav a{
+    font-family: $textFont;
+    font-size: 17px;
+    color:  #F6F8FC;
+}
+.go-home{
+    color: $yellow;
+}
+ul{
+    display: flex;
+    list-style: none;
+    margin: 0 calc(100vw * 0.02);
+    gap: calc(100vw * 0.02);
+}
+
+#order-today{
+    width: calc(100vw * 0.15);
+    min-width: 120px;
+    background-color: $yellow;
+    color: $blue;
+    font-family: $titleFont;
+    font-size: 19px;
+    border: 2px solid $yellow;
+}
