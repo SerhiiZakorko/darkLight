@@ -2,8 +2,8 @@
 
 footer{
     padding-top: 30px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 0.8fr 1fr 1.2fr;
     gap: calc(100vw * 0.02);
 }
 .footerSocialIconsContainer{
@@ -44,6 +44,7 @@ footer a{
     font-family: $textFont;
     font-size: 18px;
 }
+
 .Explore a, .Utility a{
     position: absolute;
     left: 45px;
@@ -52,7 +53,7 @@ footer a{
 }
 .footerContactInfo{
     margin-top: 28px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
     gap: calc(100vw * 0.02);
 }

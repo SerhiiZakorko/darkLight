@@ -61,8 +61,8 @@ ul {
 
 footer {
   padding-top: 30px;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 0.8fr 1fr 1.2fr;
   gap: 2vw;
 }
 
@@ -116,8 +116,8 @@ footer a {
 
 .footerContactInfo {
   margin-top: 28px;
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
   gap: 2vw;
 }
 
