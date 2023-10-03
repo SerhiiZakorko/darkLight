@@ -1,16 +1,21 @@
 @import 'variables.scss';
 
 footer{
-    padding-top: 30px;
+    max-width: $maxWidth;
+    margin: auto;
+    padding: 92px 5% 120px 5%;
+    background-color: $blue;
     display: grid;
     grid-template-columns: 1fr 0.8fr 1fr 1.2fr;
     gap: calc(100vw * 0.02);
 }
+
 .footerSocialIconsContainer{
     margin-top: 20px;
     display: flex;
     gap: calc(100vw * 0.007);
 }
+
 .footerSocialIconsWrapper{
     width: 55px;
     height: 55px;
@@ -35,12 +40,13 @@ footer h3, h4{
     font-family: $titleFont;
     font-size: 24px;
 }
+
 footer h4{
     font-size: 18px;
 }
 
 footer a{
-    color: $footerLinks;
+    color: $grey;
     font-family: $textFont;
     font-size: 18px;
 }
@@ -51,6 +57,7 @@ footer a{
     top: 5px;
     margin-bottom: 0;
 }
+
 .footerContactInfo{
     margin-top: 28px;
     display: grid;

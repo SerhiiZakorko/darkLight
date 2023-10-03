@@ -1,0 +1,171 @@
+@import 'variables.scss';
+
+.author-main-wrapper{
+    background-color: $white;
+}
+
+.the-autors-book{
+    padding-top: 67px;
+}
+
+.the-autors-book h2{
+    font-family: $titleFont;
+    font-size: 42px;
+    color: $blue;
+    text-align: center;
+    line-height: 50.4px; /* 120% */
+    text-transform: capitalize;
+}
+
+.yellow-line{
+    width: 50px;
+    height: 3px;
+    background-color: $yellow;
+    margin: 23px auto 10px auto;
+}
+
+.book-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: calc(100vw * 0.02);
+    margin: 60px calc(100vw * 0.065) 150px calc(100vw * 0.065);
+}
+
+.book{
+    display: grid;
+    grid-template-columns: 4fr 6fr;
+    column-gap: calc(100vw * 0.02);
+}
+
+.book-description{
+    padding: 17px 0 86px 0;
+    margin: auto 0;
+}
+
+.book-description .title{
+font-size: 32px;
+font-family: $titleFont;
+color: $blue;
+line-height: 38.4px; /* 120% */
+letter-spacing: 0.32px;
+margin-bottom: 8px;
+}
+
+.book-description .price{
+    font-size: 21px;
+    font-family: $titleFont;
+    color: $yellow;
+    line-height: 33px; /* 157.143% */
+    margin-bottom: 17px;
+}
+
+.book .description{
+    font-size: 19px;
+    font-family: $textFont;
+    color: $dark-grey;
+    line-height: 28.5px; /* 150% */
+    margin-bottom: 8px;
+}
+
+.book .property-wrapper{
+    display: flex;
+    gap: 10px;
+}
+
+.book .property{
+    font-size: 24px;
+    font-family: $titleFont;
+    color: $blue;
+    line-height: 28.8px; /* 120% */
+}
+
+.about-author{
+    padding: 180px calc(100vw * 0.05) 140px calc(100vw * 0.05);
+    display: flex;
+    gap: calc(100vw * 0.1);
+    background-color: $author-bg;
+}
+
+.frame{
+    width: calc(100vw * 0.33);
+    aspect-ratio: 0.85;
+    border: 10px solid $yellow;
+    position: relative;
+}
+
+.author-photo{
+    position: absolute;
+    width: calc(100vw * 0.35);
+    top: 994px;
+    left: calc(100vw * 0.0243);
+}
+
+.about h2{
+    font-size: 42px;
+    font-family: $titleFont;
+    color: $blue;
+}
+
+.about-author .yellow-line{
+    margin-left: 0;
+}
+
+.about .description{
+    margin-top: 33px;
+    font-size: 19px;
+    font-family: $textFont;
+    color: $dark-grey;
+    line-height: 34.2px; /* 180% */
+}
+
+.author-count{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: calc(100vw * 0.02);
+    margin-top: 33px;
+}
+
+.author-count div:not(:last-child){
+    border-right: 1px solid $yellow;
+}
+
+.author-count h4{
+    font-size: 54px;
+    font-family: $titleFont;
+    color: $blue;
+    line-height: 77px; /* 142.593% */
+}
+
+.contact-data{
+    width: calc(100vw * 0.36);
+    margin-top: 65px;
+    padding: 15px 20px;
+    background-color: $blue;
+    display: flex;
+    gap: calc(100vw * 0.028);
+}
+
+.contacts{
+    margin-top: 18px;
+}
+
+.contacts h3{
+    font-size: 22px;
+    font-family: $titleFont;
+    color: $yellow;
+    line-height: 26.4px; /* 120% */
+}
+
+.author-mail, .author-phone {
+    margin-top: 10px;
+    display: flex;
+    gap: calc(100vw * 0.007);
+}
+
+.contacts h4, p{
+    font-size: 18px;
+    font-family: $textFont;
+    color: $grey;
+    line-height: 28.5px; /* 158.333% */
+    letter-spacing: 0.19px;
+}

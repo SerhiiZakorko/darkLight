@@ -3,11 +3,13 @@
 header{
  display: flex;
  justify-content: space-between;
- padding: 20px 0;
+ padding: 20px 5%;
+ background-color: $blue;
 }
 
 .social-icons{
     display: flex;
+    margin: auto 0;
 }
 
 .main-logo{
@@ -38,10 +40,9 @@ nav a{
     font-family: $textFont;
     font-size: 17px;
     color:  #F6F8FC;
+    cursor: pointer;
 }
-.go-home{
-    color: $yellow;
-}
+
 ul{
     display: flex;
     list-style: none;
@@ -49,9 +50,10 @@ ul{
     gap: calc(100vw * 0.02);
 }
 
-#order-today{
+.order-today{
     width: calc(100vw * 0.15);
     min-width: 120px;
+    height: 66px;
     background-color: $yellow;
     color: $blue;
     font-family: $titleFont;

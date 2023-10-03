@@ -1,0 +1,103 @@
+@import 'variables.scss';
+
+.home-main-wrapper {
+    margin: auto;
+    padding: 100px calc(100vw * 0.065) 100px calc(100vw * 0.065);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: calc(100vw * 0.055);
+    background-color: $blue;
+}
+
+.main-intro{
+    margin: auto 0;
+}
+
+.greeting-line{
+    width: 35px;
+    height: 2px;
+    background-color: $yellow;
+    margin-top: 17px;
+}
+
+.greeting-title{
+    display: flex;
+    gap: calc(100vw * 0.01);
+}
+
+.home-main-wrapper h3{
+    font-family: $titleFont;
+    color: $white;
+    font-size: 21px;
+    line-height: 36px; /* 171.429% */
+    letter-spacing: 1.2px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+.home-main-wrapper h2{
+    font-family: $titleFont;
+    color: $white;
+    font-size: 63px;
+    line-height: 78px; /* 123.81% */
+    letter-spacing: 1.3px;
+    margin-bottom: 24px;
+}
+
+.home-main-wrapper h4{
+    font-family: $textFont;
+    font-size: 18px;
+    color: $grey;
+    line-height: 28.5px; /* 158.333% */
+}
+
+.main-intro-button-wrapper{
+    margin-top: 42px;
+    display: flex;
+    gap: calc(100vw * 0.035);
+}
+
+.home-main-wrapper .order-today{
+    width: 222px;
+}
+
+.read-free-demo{
+    width: 152px;
+    height: 31px;
+    margin: auto 0;
+    font-family: $titleFont;
+    color: $white;
+    background: none;
+    font-size: 19px;
+    border: none;
+    border-bottom: 2px solid $white;
+    line-height: 28.8px; /* 120% */
+    letter-spacing: 0.48px;
+}
+
+.prop-wrapper{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1.5fr;
+    row-gap: 12px;
+}
+
+.prop-title{
+    display: flex;
+    gap: 10px;
+}
+
+.bold-dot{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: $yellow;
+    margin: auto 0;
+}
+
+.prop-wrapper p{
+    font-size: 17px;
+    font-family: $textFont;
+    color: $grey;
+    margin-left: 26px;
+}

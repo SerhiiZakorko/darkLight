@@ -1,13 +1,15 @@
-@import 'header.scss', 'variables.scss', 'footer.scss';
+@import 'header.scss', 'variables.scss', 'footer.scss', 'homeMain.scss', 'authorMain.scss';
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    max-width: $maxWidth;
-    margin: auto;
-    padding: 0 5%;
-    background-color: $blue;
+
+button, a{
+    cursor: pointer;
+}
+
+.yellow{
+    color: $yellow;
 }

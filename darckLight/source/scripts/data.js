@@ -43,3 +43,51 @@ export const footerData = [
     }]
   }]
 
+export const homeIntroProperties = [
+    {
+        title: 'Pages:',
+        text: '250pages'
+    },
+    {
+        title: 'Length:',
+        text: '10 Hours'
+    },
+    {
+        title: 'Rating:',
+        text: '4.5/5 (305 ratings)'
+    }
+]
+
+export const autorsBooks = [
+    {
+        img: "./source/imgs/atomicOnes-book.svg",
+        alt: "Atomic One's-book",
+        title: "Atomic One’s",
+        price: "$ 13.84 USD",
+        description: "As the book contains theoretical content as well as solved questions.",
+        property: "Printed Book"
+    },
+    {
+        img: "./source/imgs/darkLight-book.svg",
+        alt: "The Dark Light-book",
+        title: "The Dark Light",
+        price: "$ 86.11 USD",
+        description: "As the book contains theoretical content as well as solved questions.",
+        property: "Printed Book"
+    }
+]
+
+export const authorCounts = [
+    {
+        key: 'Books Published',
+        value: '02'
+    },
+    {
+        key: 'User Reviews',
+        value: '4.5'
+    },
+    {
+        key: 'Best Seller Awards',
+        value: '04'
+    }
+]
