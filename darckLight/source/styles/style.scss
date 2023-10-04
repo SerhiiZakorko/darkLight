@@ -1,9 +1,10 @@
-@import 'header.scss', 'variables.scss', 'footer.scss', 'homeMain.scss', 'authorMain.scss';
+@import 'header.scss', 'variables.scss', 'footer.scss', 'homeMain.scss', 'authorMain.scss', 'companiesMain.scss';
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-weight: 400;
 }
 
 button, a{

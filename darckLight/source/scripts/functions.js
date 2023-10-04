@@ -1,5 +1,5 @@
-import {footerData, homeIntroProperties, autorsBooks, authorCounts} from './data.js'
-import { footer, dotsImgSrc, main, goHome, goAuthor} from './variables.js'
+import {footerData, homeIntroProperties, autorsBooks, authorCounts, trustedCompanies} from './data.js'
+import { footer, dotsImgSrc, main, goHome, goAuthor, goCompanies} from './variables.js'
 
 export function renderFooter(){
 footer.innerHTML = `<div class='footerImagesContainer'><img class='main-logo' src = ${footerData[0].logo} alt="main-logo">
@@ -44,6 +44,7 @@ main.innerHTML = `<div class="home-main-wrapper">
 </div>`
 goHome.classList.add('yellow')
 goAuthor.classList.remove('yellow')
+goCompanies.classList.remove('yellow')
 }
 
 export function renderAuthorMain(){
@@ -95,4 +96,35 @@ export function renderAuthorMain(){
                 </section> </div>`
 goAuthor.classList.add('yellow')
 goHome.classList.remove('yellow')
+goCompanies.classList.remove('yellow')
+}
+
+export function renderCompanyMain(){
+    main.innerHTML = ''
+    main.innerHTML = `<div class="companies-main-wrapper">
+                        <section class="trusted">
+                            <div class="title-container">
+                                 <h2>Trusted By The Best</h2>
+                                 <div class="yellow-line"></div>
+                            </div>
+                            <div class="trusted-companies">
+                                ${trustedCompanies.map(el => `<div class='company'><img src="${el.logo}" alt="el.alt">
+                                <h3>${el.title}</h3>
+                                <p>${el.text}</p></div>`).join('')}
+                            </div>    
+                        </section>
+                        <section class="get-book-copy">
+                            <div class="text-wrapper">
+                                <h2>Get Book Copy Today!</h2>
+                            <div class="yellow-line"></div>
+                            <p>We believe that bookstores are essential to a healthy </br> culture. They’re where authors can connect with readers.</p>
+                            </div>
+                            <div class="image-wrapper">
+                            <img src="./source/imgs/teaCup.svg" alt="book & tea cup">
+                            </div>
+                        </section>
+                    </div>`
+  goAuthor.classList.remove('yellow')
+  goHome.classList.remove('yellow')
+  goCompanies.classList.add('yellow')
 }

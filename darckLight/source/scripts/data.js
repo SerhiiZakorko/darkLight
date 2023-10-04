@@ -91,3 +91,30 @@ export const authorCounts = [
         value: '04'
     }
 ]
+
+export const trustedCompanies = [
+    {
+        logo: './source/imgs/amazenCorp.svg',
+        alt: 'amazenCorp-logo',
+        title: 'Amazen Corp.',
+        text: 'They has been helping readers, music lovers, and videophiles find quality material.'
+    },
+    {
+        logo: './source/imgs/meganBooks.svg',
+        alt: 'meganBooks-logo',
+        title: 'Megan Books',
+        text: 'We help physical bookstores manage their overstock to the book inventory.'
+    },
+    {
+        logo: './source/imgs/megank.svg',
+        alt: 'megank-logo',
+        title: 'Megank',
+        text: 'Bookstore serving up the full spectrum of Black literature and wine black books.'
+    },
+    {
+        logo: './source/imgs/urbanStore.svg',
+        alt: 'urbanStore-logo',
+        title: 'Urban Store',
+        text: 'We also carry the latest records, issues of all of your favorite comic books.'
+    }
+]

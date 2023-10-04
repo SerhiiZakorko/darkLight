@@ -1,0 +1,79 @@
+@import 'variables.scss';
+
+.trusted{
+    background-color: $white;
+    padding: 55px calc(100vw * 0.05) 130px calc(100vw * 0.05);
+}
+
+.title-container h2{
+    margin: 20px auto 23px auto;
+    text-align: center;
+    font-size: 42px;
+    color: $blue;
+    line-height: 50.4px; /* 120% */
+    text-transform: capitalize;
+}
+
+.trusted-companies{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 50px;
+}
+
+.company{
+    display: flex;
+    flex-direction: column;
+    gap: calc(100vw * 0.014);
+}
+.company img{
+    margin: auto;
+}
+
+.company h3{
+text-align: center;
+font-size: 24px;
+color: $blue;
+font-family: $titleFont;
+line-height: 28.8px; /* 120% */
+}
+
+.company p{
+    padding: 0 calc(100vw * 0.02);
+    text-align: center;
+    font-size: 19px;
+    color: $dark-grey;
+    font-family: $textFont;
+    line-height: 28.5px; /* 150% */
+}
+
+.get-book-copy{
+    background-color: $blue;
+    display: flex;
+    justify-content: space-between;
+    gap: calc(100vw * 0.09);
+    padding: 70px calc(100vw * 0.05);
+}
+
+.text-wrapper{
+    padding-top: 75px;
+    align-items: center;
+}
+
+.text-wrapper h2{
+    font-size: 45px;
+    font-family: $titleFont;
+    color: $white;
+    line-height: 54px; /* 120% */
+    text-transform: capitalize;
+}
+
+.text-wrapper .yellow-line{
+    margin: 24px auto 27px 0;
+}
+
+.text-wrapper p{
+    font-size: 19px;
+    font-family: $textFont;
+    color: $grey;
+    line-height: 28.5px; /* 150% */
+}
