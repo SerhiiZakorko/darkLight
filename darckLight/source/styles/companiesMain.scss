@@ -23,7 +23,7 @@
 .company{
     display: flex;
     flex-direction: column;
-    gap: calc(100vw * 0.014);
+    gap: 1.4vw;
 }
 .company img{
     margin: auto;
@@ -38,7 +38,7 @@ line-height: 28.8px; /* 120% */
 }
 
 .company p{
-    padding: 0 calc(100vw * 0.02);
+    padding: 0 2vw;
     text-align: center;
     font-size: 19px;
     color: $dark-grey;
@@ -50,8 +50,8 @@ line-height: 28.8px; /* 120% */
     background-color: $blue;
     display: flex;
     justify-content: space-between;
-    gap: calc(100vw * 0.09);
-    padding: 70px calc(100vw * 0.05);
+    gap: 9vw;
+    padding: 70px 5vw;
 }
 
 .text-wrapper{

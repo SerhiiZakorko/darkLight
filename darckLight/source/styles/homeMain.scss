@@ -2,10 +2,10 @@
 
 .home-main-wrapper {
     margin: auto;
-    padding: 100px calc(100vw * 0.065) 100px calc(100vw * 0.065);
+    padding: 100px 6.5vw 100px 6.5vw;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    column-gap: calc(100vw * 0.055);
+    column-gap: 5.5vw;
     background-color: $blue;
 }
 
@@ -22,7 +22,7 @@
 
 .greeting-title{
     display: flex;
-    gap: calc(100vw * 0.01);
+    gap: 1vw;
 }
 
 .home-main-wrapper h3{
@@ -54,7 +54,7 @@
 .main-intro-button-wrapper{
     margin-top: 42px;
     display: flex;
-    gap: calc(100vw * 0.035);
+    gap: 3.5vw;
 }
 
 .home-main-wrapper .order-today{

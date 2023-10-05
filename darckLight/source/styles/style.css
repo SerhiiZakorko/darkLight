@@ -94,6 +94,10 @@ footer {
   position: relative;
 }
 
+.footerLinkContainer {
+  margin-top: 25px;
+}
+
 footer h3, h4 {
   color: #FFFFFF;
   font-family: "Cardo", serif;

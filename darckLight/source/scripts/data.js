@@ -1,22 +1,22 @@
-import { logoImgSrc, facebookIconSrc, twitterIconSrc, linckedInIconSrc, instagramIconSrc, facebookIconAlt, twitterIconAlt, linckedInIconAlt, instagramIconAlt } from './variables.js'
 export const footerData = [
     {
-        logo: logoImgSrc,
+        logo: "./source/imgs/IMAGE.svg",
+
         src: [{
-            src: facebookIconSrc,
-            alt: facebookIconAlt,
+            src: "./source/imgs/fb-white.svg",
+            alt: 'facebook',
         },
         {
-            src: twitterIconSrc,
-            alt: twitterIconAlt,
+            src: './source/imgs/twitter-white.svg',
+            alt: 'twitter',
         },
         {
-            src: linckedInIconSrc,
-            alt: linckedInIconAlt,
+            src: './source/imgs/in-white.svg',
+            alt: 'linckedIn',
         },
         {
-            src: instagramIconSrc,
-            alt: instagramIconAlt,
+            src: './source/imgs/insta-white.svg',
+            alt: 'instagram',
         }]
     },
     {

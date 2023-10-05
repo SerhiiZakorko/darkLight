@@ -7,13 +7,13 @@ footer{
     background-color: $blue;
     display: grid;
     grid-template-columns: 1fr 0.8fr 1fr 1.2fr;
-    gap: calc(100vw * 0.02);
+    gap: 2vw;
 }
 
 .footerSocialIconsContainer{
     margin-top: 20px;
     display: flex;
-    gap: calc(100vw * 0.007);
+    gap: 0.7vw;
 }
 
 .footerSocialIconsWrapper{
@@ -33,6 +33,10 @@ footer{
 .footerLinkWrapper{
     display: flex;
     position: relative;
+}
+
+.footerLinkContainer{
+    margin-top: 25px;
 }
 
 footer h3, h4{
@@ -62,5 +66,5 @@ footer a{
     margin-top: 28px;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: calc(100vw * 0.02);
+    gap: 2vw;
 }

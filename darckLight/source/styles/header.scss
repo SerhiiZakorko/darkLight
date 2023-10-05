@@ -13,13 +13,13 @@ header{
 }
 
 .main-logo{
-    margin: auto calc(100vw * 0.025) auto 0;
-    width: calc(100vw * 0.085);
+    margin: auto 2.5vw auto 0;
+    width: 8.5vw;
     height: 35px;
 }
 
 .social-icon-wrapper:not(:last-child){
-    margin-right: calc(100vw * 0.007);
+    margin-right: 0.7vw;
 }
 
 .social-icon-wrapper{
@@ -46,12 +46,12 @@ nav a{
 ul{
     display: flex;
     list-style: none;
-    margin: 0 calc(100vw * 0.02);
-    gap: calc(100vw * 0.02);
+    margin: 0 2vw;
+    gap: 2vw;
 }
 
 .order-today{
-    width: calc(100vw * 0.15);
+    width: 15vw;
     min-width: 120px;
     height: 66px;
     background-color: $yellow;

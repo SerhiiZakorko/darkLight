@@ -2,7 +2,7 @@ import {renderFooter, renderHomeMain, renderAuthorMain, renderCompanyMain} from 
 import { goHome, goAuthor, goCompanies } from './variables.js'
 
 renderFooter()
-//renderHomeMain()
+renderHomeMain()
 
 goHome.addEventListener('click', () => renderHomeMain())
 goAuthor.addEventListener('click', () => renderAuthorMain())
