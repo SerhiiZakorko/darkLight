@@ -118,3 +118,31 @@ export const trustedCompanies = [
         text: 'We also carry the latest records, issues of all of your favorite comic books.'
     }
 ]
+
+export const tips = [
+   'Use HDFS & Map Reduce for storing & analyzing data at scale.',
+   'Consume streaming data using Spark Streaming, Flink, and Storm.',
+   'Choose an appropriate data storage technology for your application',
+   'Analyze non-relational data using HBase, Cassandra, and MongoDB.'
+]
+
+export const stories = [
+    {
+        img: './source/imgs/story-1.svg',
+        title: 'Significant reading has more info number',
+        text: 'Override the digital divide with additional clickthroughs from DevOps for real-time schemas.',
+        date: 'October 6, 2021'
+    },
+    {
+        img: './source/imgs/story-2.svg',
+        title: 'Many variations of pass majority have suffered',
+        text: 'Capitalize on low-hanging fruit to identify a ballpark value-added activity to beta test.',
+        date: 'October 6, 2021'
+    },
+    {
+        img: './source/imgs/story-3.svg',
+        title: 'Words which don’t look even slightly believable',
+        text: 'Podcasting operational change management inside of workflows to establish a framework.',
+        date: 'October 6, 2021'
+    }
+]

@@ -14,6 +14,7 @@ header {
   margin: auto 2.5vw auto 0;
   width: 8.5vw;
   height: 35px;
+  cursor: pointer;
 }
 
 .social-icon-wrapper:not(:last-child) {
@@ -477,6 +478,126 @@ footer a {
   font-family: "Inter", sans-serif;
   color: #B4C7E7;
   line-height: 28.5px; /* 150% */
+}
+
+.What-will {
+  background-color: #FFFFFF;
+  padding: 109px 5vw 120px 5vw;
+}
+
+.What-will h2, .articles-resources h2 {
+  text-align: center;
+  font-size: 42px;
+  font-family: "Cardo", serif;
+  color: #1B3764;
+  line-height: 50.4px; /* 120% */
+  text-transform: capitalize;
+}
+
+.tips-container {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  gap: 5.5vw;
+}
+
+.tips-part {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2vw;
+  padding: 30px 0;
+}
+
+.tip {
+  background-color: #F4F8FF;
+}
+
+.tip-num {
+  width: 50px;
+  height: 50px;
+  background-color: #FFCA42;
+  border-radius: 50%;
+  margin: 30px 0 0 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tip h3 {
+  font-size: 23px;
+  color: #1B3764;
+  font-family: "Cardo", serif;
+  line-height: 28.8px; /* 125.217% */
+}
+
+.tip p {
+  margin: 30px 7vw auto 30px;
+  font-size: 24px;
+  font-family: "Cardo", serif;
+  color: #1B3764;
+  line-height: 33.6px; /* 140% */
+}
+
+.photo-part .frame {
+  position: relative;
+  width: 35vw;
+  aspect-ratio: 0.855;
+}
+
+.photo-part img {
+  width: 37.5vw;
+  aspect-ratio: 0.865;
+  position: absolute;
+  top: 318px;
+  right: 5.75vw;
+}
+
+.articles-resources {
+  background-color: #F4F8FF;
+  padding: 126px 5vw 150px 5vw;
+}
+
+.stories-wrapper {
+  margin-top: 70px;
+  padding: 0, 0.7vw;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 1.4vw;
+}
+
+.story {
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+
+.story img {
+  width: 100%;
+}
+
+.story-description {
+  padding: 25px 2vw 30px 2vw;
+}
+
+.story h4 {
+  font-size: 24px;
+  font-family: "Cardo", serif;
+  color: #1B3764;
+  width: 70%;
+}
+
+.story p {
+  margin-top: 20px;
+  width: 85%;
+  font-size: 19px;
+  line-height: 30.4px; /* 160% */
+}
+
+.story .date {
+  color: #1B3764;
+  width: 100%;
+  text-align: right;
+  font-size: 16px;
+  line-height: 25.5px; /* 159.375% */
 }
 
 * {
